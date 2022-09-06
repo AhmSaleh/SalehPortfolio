@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://docdro.id/7AgUsYS',
+  title: 'React Progress.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Ahmed Saleh',
+  role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a software engineer working currently for Integrant, inc as a full stack web developer.',
+  resume: 'https://docdro.id/I0KdUy6',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://eg.linkedin.com/in/ahmdmsaleh',
+    github: 'https://github.com/AhmSaleh',
   },
 }
 
@@ -21,28 +21,40 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'React Facts',
+    description: 'A simple static page using React.JS',
+    stack: ['React', 'JS', 'CSS'],
+    sourceCode: 'https://github.com/AhmSaleh/React-Facts',
+    livePreview: 'https://ahmsaleh.github.io/React-Facts/',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'OpenSea',
+    description: `A static page for the world's first and largest NFT marketplace`,
+    stack: ['React', 'JS', 'CSS'],
+    sourceCode: 'https://github.com/AhmSaleh/OpenSea',
+    livePreview: 'https://ahmsaleh.github.io/OpenSea/',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Meme Generator',
+    description: `A simple meme generator using imgflip API`,
+    stack: ['React', 'JS', 'CSS'],
+    sourceCode: 'https://github.com/AhmSaleh/Meme-Generator',
+    livePreview: 'https://ahmsaleh.github.io/Meme-Generator/',
+  },
+  {
+    name: 'Advice App',
+    description: `SPA which randomly generate advices using adviceslip API`,
+    stack: ['React', 'JS', 'CSS'],
+    sourceCode: 'https://github.com/AhmSaleh/react-advice-app',
+    livePreview: 'https://ahmsaleh.github.io/react-advice-app/',
+  },
+
+  {
+    name: 'Food Order App',
+    description: `A food order app with cart and menu`,
+    stack: ['React', 'JS', 'CSS'],
+    sourceCode: 'https://github.com/AhmSaleh/Food-Oeder-App/tree/main',
+    livePreview: 'https://ahmsaleh.github.io/Food-Order-App/',
   },
 ]
 
@@ -55,17 +67,14 @@ const skills = [
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Asp.Net',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ahmed.saleh@integrant.com',
 }
 
 export { header, about, projects, skills, contact }
