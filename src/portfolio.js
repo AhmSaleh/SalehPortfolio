@@ -54,7 +54,7 @@ const projects = [
     description: `A food order app with cart and menu`,
     stack: ['React', 'JS', 'CSS'],
     sourceCode: 'https://github.com/AhmSaleh/Food-Oeder-App/tree/main',
-    livePreview: 'https://ahmsaleh.github.io/Food-Order-App/',
+    livePreview: 'https://ahmsaleh.github.io/Food-Oeder-App/',
   },
 ]
 
